@@ -1,5 +1,22 @@
-book_filename: "To transfer"
 delete_merged_file: true
+new_session: yes
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Q "
+before_chapter_script: "_scripts.R"
+rmd_files: [
+  "index.Rmd",
+
+  "01-install.Rmd",
+  "unable_to_install_latest_R.Rmd",
+
+  "03-datavis.Rmd",
+
+  "04-datasummaries.Rmd",
+
+  "09-staff.Rmd",
+  "template.Rmd",
+
+  "10-references.Rmd"
+
+]
