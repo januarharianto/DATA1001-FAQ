@@ -1,21 +1,32 @@
-# Introduction {#intro}
+# (PART) Install FAQ {#install}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+# What is the install FAQ?
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
-
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('assets/installfaq.jpg')
 ```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+This chapter is dedicated to install issues related to:
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+- R
+- RStudio
+- R packages
+- general operating system issues linked to installation
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+<!-- ## Unable to install latest R version -->
+
+
+
+<!-- ## Unable to locate R binary by scanning standard locations -->
+
+
+
+<!-- ## Required package versions could not be found  -->
+
+
+<!-- ## The git command requires the command line developer tools. Would you like to install the tools now? -->
+
+
+<!-- This window appears on macOS systems when RStudio is opened for the first time. Approving the install activates additional functionality such as git control and package development.  -->
+<!-- For students, installing the tools is **optional**.  -->
+<!-- We recommend that you click on "Install" now if you are interested in [version control](https://www.atlassian.com/git/tutorials/what-is-version-control) for your documents and code. -->

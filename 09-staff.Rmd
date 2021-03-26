@@ -1,0 +1,28 @@
+# (PART) Contributing {.unnumbered}
+
+# Making changes to this document {.unnumbered}
+
+Anyone can contribute to this FAQ, as long as they are staff or students of DATA1001.
+
+Contributors may **suggest edits and additions** by posting on the issues page. Alternatively, contributors may also **edit the document directly**. To do so, they need to know how to:
+
+- clone the repository for this document; and 
+- send a pull request after making any changes.
+
+A quick guide to both methods is documented below.
+
+## Using Github Issues {.unnumbered}
+
+If you decide to suggest **edits** to the document, please specify:
+
+1. The FAQ number (you can view it on the table of contents, or from the section header in the FAQ), or if it is not a FAQ item, the section title.
+2. The entire sentence that contains the text that you want to change.
+3. The suggested change.
+4. A rationale for the change.
+
+### How to create an issue {.unnumbered}
+Go to the Issues section and create an Issue.
+
+
+
+## Pull requests {.unnumbered}

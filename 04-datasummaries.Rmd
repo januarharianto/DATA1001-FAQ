@@ -1,0 +1,10 @@
+# (PART) Data wrangling {.unnumbered}
+
+# What's in the data wrangling FAQ?
+
+This section contains suggested answers for questions related to:
+
+- data summaries e.g. `mean()`, `median()`
+- data manipulation (to obtain summaries) e.g. when you want to obtain mean values by category, or when you want to filter data before summarising.
+
+Generally, we will try to provide both base R and `tidyverse` options in the responses.

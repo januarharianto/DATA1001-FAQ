@@ -1,0 +1,23 @@
+# Template to submit FAQs {.unnumbered}
+
+- **Before editing this file, please duplicate it** and save as a new file.
+- The file name should be related to the FAQ question (for easy referencing of the filename).
+- Then, include the filename in `_bookdown.yml` by adding its name to `rmd_files`
+
+
+## Divide your answer into sections
+
+If your answer is long, consider dividing it into sections. 
+It might also be useful to consider splitting the answer into two or more FAQs.
+
+## Add images if you want 
+
+Use a code chunk to do so. All image or table assets should be saved into the assets folder with a unique name.
+
+Don't forget to remove `eval=FALSE` to activate the code chunk. 
+The option `out.width` helps you adjust the size of the image.
+
+```{r eval=FALSE, echo=FALSE, out.width='100%'}
+knitr::include_graphics('assets/yourimage.png')
+```
+
