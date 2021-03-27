@@ -1,6 +1,6 @@
 # (PART) Contributing {.unnumbered}
 
-# Making changes to this document {.unnumbered}
+# Making changes to this document
 
 Anyone can contribute to this FAQ, as long as they are staff or students of DATA1001.
 
@@ -11,7 +11,7 @@ Contributors may **suggest edits and additions** by posting on the issues page. 
 
 A quick guide to both methods is documented below.
 
-## Using Github Issues {.unnumbered}
+## Using Github Issues
 
 If you decide to suggest **edits** to the document, please specify:
 
@@ -20,9 +20,9 @@ If you decide to suggest **edits** to the document, please specify:
 3. The suggested change.
 4. A rationale for the change.
 
-### How to create an issue {.unnumbered}
+### How to create an issue
 Go to the Issues section and create an Issue.
 
 
 
-## Pull requests {.unnumbered}
+## Pull requests
