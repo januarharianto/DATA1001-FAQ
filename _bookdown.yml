@@ -1,20 +1,23 @@
 delete_merged_file: true
 new_session: yes
-language:
-  ui:
-    chapter_name: "Q "
+# language:
+#   ui:
+#     chapter_name: "Q "
 before_chapter_script: "_scripts.R"
 rmd_files: [
   "index.Rmd",
 
   "01-install.Rmd",
-  "unable_to_install_latest_R.Rmd",
+  "install_latest_R.Rmd",
 
   "03-datavis.Rmd",
+  "datavis_object_not_found.Rmd",
 
   "04-datasummaries.Rmd",
+  "wrangle_cannot_openfile.Rmd",
 
   "09-staff.Rmd",
+  "staff_why_contribute.Rmd",
   "template.Rmd",
 
   "10-references.Rmd"
