@@ -9,6 +9,23 @@ pre {
   word-break: normal;
   word-wrap: normal;
 }
+
+/* Some rules for displaying code: */
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
 pre code {
   white-space: inherit;
+}
+flushright {
+  text-align: right;
+}
+
+/* list spacing reduce */
+li:not(:last-child) {
+    margin-bottom: 0px;
 }
