@@ -1,4 +1,4 @@
---- 
+---
 title: "DATA1001 FAQ"
 author: "USYD"
 date: "`r Sys.Date()`"
@@ -12,36 +12,28 @@ description: "A public FAQ for DATA1001"
 
 # Welcome {.unnumbered}
 
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('assets/welcome.jpg')
-```
+This book aims to be a FAQ repository for students taking **DATA1001** at the University of Sydney (USYD). It is not endorsed by USYD in any way -- all content is community-driven and open to the public. Contributions are made voluntarily. [What are the benefits](#contribute)?
 
-This book aims to be a FAQ repository for students taking DATA1001 at USYD.
-**Note that this FAQ is for R and RStudio.**
-If you have other queries related to this unit, check Canvas or Ed.
-
-This book is not endorsed by USYD in any way. **It is community-driven and open to the public.** 
+**Note that this FAQ is for R and RStudio.** If you have other queries related to this unit, check Canvas or Ed. If you are not a DATA1001 student, some questions in the FAQ may not make sense.
 
 # How do I use this book?
 
-- Click on the sections in the sidebar to the left to navigate to the specific FAQ item.
-- You may be able to navigate to subsections within each item using the sidebar on the right ("On this page").
+## If you are a student
 
+-   This book is dividend into 3 main Parts: Install, Data visualisation, and Data wrangling. Click on the sections in the sidebar to the left to navigate to the specific FAQ item.
+-   If available, subsections are listed on the sidebar to the right, at "On this page".
 
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('assets/faqsplash.jpg')
-```
+## If you are staff
+
+-   You may want to contribute to, or edit content in this book. The best way is to fork this project on GitHub and make edits to *specific* sections. Try not to edit a whole bunch of stuff at once.
+-   Alternatively, use GitHub issues to submit an Rmd file containing a full FAQ. The document will be incorporated into this book and credit will be provided.
 
 # What do I do if I find errors in this book?
 
-```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('assets/errorfix.jpg')
-```
+Great work in detecting the problem! There are three ways:
 
-Great work in detecting the problem! There are two ways:
+1.  Post the issue on Ed.
+2.  Submit an issue on this project's GitHub Issues page.
+3.  For the adventurous, create a pull request on GitHub.
 
-1. Post the issue on Ed.
-2. Submit an issue on this project's GitHub Issues page.
-
-Either way, try to include details of the error(s) including a link to the page.
-We will get someone to fix it.
+Please document the issue, and suggested fix (if any), appropriately.
