@@ -1,9 +1,0 @@
-# Unable to install latest version of R from CRAN
-
-This issue happens mostly on macOS since the operating system stopped supporting 32-bit R a few years ago.
-
-If you have an older operating system, consider upgrading your system to **Snow Leopard (10.6) or above** as this will fix the issue.
-
-If that is not possible, you may also install a legacy version of R, but this would mean that you will not be able to use the latest features of R. 
-For this reason, the better alternative would be to utilise a **cloud version of RStudio**. In this situation, you are "streaming" an RStudio interface through your web browser. 
-An internet connection must be available for this to work.
