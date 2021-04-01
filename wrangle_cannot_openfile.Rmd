@@ -1,0 +1,37 @@
+# Data import: cannot open file: No such file or directory
+
+
+## The issue
+
+This error message occurs during data import. It is likely that an incorrect file path was provided in the `path = ` argument.
+
+
+## Reproducible error
+
+The following type of code will reproduce this error:
+
+```{r eval=FALSE}
+# either the folder `bananas`, or the file `apes.csv`, 
+# or both, do not exist:
+read_csv("bananas/apes.csv") 
+```
+
+## Suggested solution
+
+**Step 1:** Move the data file into the same folder as your current .Rmd file. Then, the path to the file is simply the file name:
+
+```{r eval=FALSE}
+# not evaluated
+read_csv("apes.csv") # `apes.csv` and your .Rmd file are in the same folder
+```
+
+<!-- **The code above may not work if you evaluate code outside of a knit** (i.e. you like to click on "Run" or use `cmd+return` or `ctrl+enter` on code). -->
+
+**Step 2 (optional):** Change the global working directory to match your R Markdown file's working directory. 
+This is for students who tend to evaluate code chunks without knitting (i.e. they like to click on "Run" or use `cmd+return` or `ctrl+enter` on code).
+In the toolbar menu, click on **Session > Set Working Directory > To Source File Location**. 
+Note that users may need to repeat Step 2 or restart their R session to reset the working directory for other projects.
+
+## Additional resources
+
+- [The working directory for R code chunks](https://bookdown.org/yihui/rmarkdown-cookbook/working-directory.html)
