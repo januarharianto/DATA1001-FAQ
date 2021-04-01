@@ -1,0 +1,51 @@
+# `ggplot2` error: object not found
+
+```{r include=FALSE}
+library(ggplot2)
+```
+
+## The issue
+
+This error message happens when R is unable to find the data you specified to produce your plot.
+
+## Reproducible error
+
+The following code will replicate this error:
+
+```{r eval=FALSE}
+library(ggplot2)
+ggplot(bananas, aes(monkey, eaten)) +
+  geom_bar(stat = "identity")
+```
+
+In the above example, `bananas` does not exist. To make the code work, you must have a prior line of code that goes:
+
+```{r eval=FALSE}
+bananas = ...
+# or
+bananas <- ...
+```
+
+where `...` is whatever function is used to create a data object, such as `data.frame()` or `read.csv()`. 
+
+
+## Suggested solution
+
+Ensure that the data object has been created or defined. 
+If you used the `read.csv()` (or similar) function, make sure the results are assigned to a name. 
+Here, we assign the output of `data.frame()` to the object, `bananas`:
+
+```{r}
+bananas <- data.frame(monkey = c(1:5), eaten = c(2, 6, 3, 4, 7))
+```
+
+Since `bananas` is now an object that has been defined, then repeating the original code will now work:
+
+```{r}
+ggplot(bananas, aes(monkey, eaten)) +
+  geom_bar(stat = "identity")
+```
+
+## Additional resources
+
+- [What does “Error: object '<myvariable>' not found” mean?](https://stackoverflow.com/questions/27886839/what-does-error-object-myvariable-not-found-mean)
