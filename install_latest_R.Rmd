@@ -1,0 +1,17 @@
+# Unable to install latest version of R from CRAN
+
+This issue happens mostly on **macOS** since the operating system stopped supporting 32-bit R a few years ago.
+
+## Upgrade your operating system
+
+If you have an older operating system, consider upgrading your system to **High Sierra (10.13) or above** as this will fix the issue.
+
+## Install legacy R
+
+If upgrading your OS is not possible, you may also install a [legacy version of R](https://cran.r-project.org/bin/macosx/), available by scrolling to the bottom of the link provided and selecting the version that matches your current operating system. However, you may not be able to install the latest R packages and some functionality demonstrated in our labs may not be available to you. For these reasons, it might be better to run RStudio online (see below).
+
+## Run RStudio online on Ed
+
+Ed now supports RStudio as an online service using your web browser. As this feature is being developed regularly, please go to Ed to view the latest announcement on running RStudio on Ed.
+
+Note that an Internet connection must be available when using RStudio online.
