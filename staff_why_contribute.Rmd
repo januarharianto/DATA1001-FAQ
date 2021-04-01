@@ -1,9 +1,9 @@
-# Why contribute?
+# Why contribute? {#contribute}
 
-- Consolidating the most popular questions into this FAQ book will hopefully help us reduce both question and answer fatigue.
-Instead of answering the same type of question multiple times, we can refer to the FAQ and update it for multiple questions.
+- Consolidating the most popular questions into this FAQ book will, hopefully, help us reduce answer fatigue.
+Instead of answering the same questions multiple times, we can refer to the FAQ and update it for multiple questions.
 - Issues and pull requests, when created, are recorded on GitHub [contribution histories](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/viewing-contributions-on-your-profile).
 These histories provide visual proof of contribution to open-source projects.
 Some employers look out for these contributions when making decisions to hire employees.
-- For users who are new to `.git`, this project provides a platform to practice version control.
+- For users who are new to `.git`, contributing to this project is a good way to learn version control.
  
