@@ -2,21 +2,9 @@
 
 # What's in the data visualisation FAQ?
 
-Questions related to:
+Questions related to the following will be documented and answered here:
 
-- **base R plot** (e.g. `plot()`, `curve()`, `boxplot()`); or 
-- **`ggplot2`** (e.g. `geom_point()`, `stat_function()`, `theme()`) will be documented and answered here.
+-   base R plot, e.g. `plot()`, `curve()`, `boxplot()`; or
+-   `ggplot2`, e.g. `geom_point()`, `stat_function()`, `theme()`
 
-This section may also answer common questions about finding an appropriate visualisation for different types of data.
-
-```{r echo=FALSE, message=FALSE}
-library(ggplot2)
-ggplot(iris, aes(Petal.Length, Petal.Width)) +
-  geom_point(aes(colour = Species)) +
-  geom_smooth(method = "lm", colour = "black", size = .6) +
-  ggtitle("Relationship between petal length and petal width in iris") +
-  xlab("Petal Length (cm)") +
-  ylab("Petal Width (cm)") +
-  scale_colour_viridis_d() +
-  theme_classic()
-```
+This section may also answer general questions about improving the quality of data visualisations.
