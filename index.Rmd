@@ -28,7 +28,7 @@ This book aims to be a FAQ repository for students taking **DATA1001** at the Un
 -   You may want to contribute to, or edit content in this book. The best way is to fork this project on GitHub and make edits to *specific* sections. Try not to edit a whole bunch of stuff at once.
 -   Alternatively, use GitHub issues to submit an Rmd file containing a full FAQ. The document will be incorporated into this book and credit will be provided.
 
-# What do I do if I find errors in this book?
+# How do I report an error in this book?
 
 Great work in detecting the problem! There are three ways:
 
